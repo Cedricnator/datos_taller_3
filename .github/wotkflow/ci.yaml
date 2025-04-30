@@ -1,0 +1,25 @@
+# .github/workflows/ci.yaml
+name: ci worflow
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        
+      - name: Finalize build
+        run: 
+          echo "Build completed successfully!"
