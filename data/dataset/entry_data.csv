@@ -18,7 +18,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 16,US-2016-118983,22/11/2016,26/11/2016,Standard Class,HP-14815,Harold Pawlan,Home Office,United States,Fort Worth,Texas,76106,Central,OFF-BI-10000756,Office Supplies,Binders,Storex DuraTech Recycled Plastic Frosted Binders,2.544
 17,CA-2015-105893,11/11/2015,18/11/2015,Standard Class,PK-19075,Pete Kriz,Consumer,United States,Madison,Wisconsin,53711,Central,OFF-ST-10004186,Office Supplies,Storage,"Stur-D-Stor Shelving, Vertical 5-Shelf: 72""H x 36""W x 18 1/2""D",665.88
 18,CA-2015-167164,13/05/2015,15/05/2015,Second Class,AG-10270,Alejandro Grove,Consumer,United States,West Jordan,Utah,84084,West,OFF-ST-10000107,Office Supplies,Storage,Fellowes Super Stor/Drawer,55.5
-19,CA-2015-143336,27/08/2015,01/09/2015,Second Class,ZD-21925,Zuschuss Donatelli,Consumer,United States,San Francisco,California,94109,West,OFF-AR-10003056,Office Supplies,Art,Newell 341,8.56
+19,CA-2015-143336,27/08/2015,01/09/2015,Skecond Class,ZD-21925,Zuschuss Donatelli,Consumer,United States,San Francisco,California,94109,West,OFF-AR-10003056,Office Supplies,Art,Newell 341,8.56
 20,CA-2015-143336,27/08/2015,01/09/2015,Second Class,ZD-21925,Zuschuss Donatelli,Consumer,United States,San Francisco,California,94109,West,TEC-PH-10001949,Technology,Phones,Cisco SPA 501G IP Phone,213.48
 21,CA-2015-143336,27/08/2015,01/09/2015,Second Class,ZD-21925,Zuschuss Donatelli,Consumer,United States,San Francisco,California,94109,West,OFF-BI-10002215,Office Supplies,Binders,"Wilson Jones Hanging View Binder, White, 1""",22.72
 22,CA-2017-137330,09/12/2017,13/12/2017,Standard Class,KB-16585,Ken Black,Corporate,United States,Fremont,Nebraska,68025,Central,OFF-AR-10000246,Office Supplies,Art,Newell 318,19.46
