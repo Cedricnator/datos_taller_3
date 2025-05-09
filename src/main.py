@@ -1,5 +1,8 @@
 import pandas as pd
 import csv
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def main():
    with open('./data/dataset/train.csv', 'r') as file:
