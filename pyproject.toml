@@ -9,5 +9,6 @@ dependencies = [
    "jupyterlab",
    "dotenv",
    "pandas",
-   "seaborn"
+   "seaborn",
+   "scikit-learn>=1.6.1",
 ]
