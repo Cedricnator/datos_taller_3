@@ -1,0 +1,41 @@
+### 5. Reflexión final: Limitaciones y posibles mejoras
+
+1. ¿Qué elementos limitaron el rendimiento del modelo? (por ejemplo, tamaño del dataset, calidad de
+los atributos, clases desbalanceadas, etc.)
+R: Lo que limito el rendimiento del modelo fueron las clases desbalanceadas, hay mucha diferencia en los datos entre repositorios publicos.
+
+2. ¿Qué otras estrategias o modelos podrían probarse en futuras versiones?
+R: Se puede hacer un ajuste de hiperparametros mas intensivo, en nuestro caso, solamente usamos un par de parametros con GridSearch.
+Pero problamente existan mejores combinacione de hiperparametros para mejorar el rendimiento de los modelos de clasificacion
+
+3. ¿Qué mejoras propondría si tuviera más tiempo o recursos?
+R: Como mejoras, podriamos proponer lo siguiente:
+3.1 Enriquecimiento del conjunto de datos:
+Podriamos recopilar datos de un espectro mas amplio de repositorios, es decir, repositorios de multiples tamaños, comunidades, estrellas, lenguajes, entre otros.
+
+3.2 Evaluacion del modelo mas robusta:
+Implementar completamente la matriz de confusion, por conjunto de otras tecnicas como cross-validation.
+Crear multiples conjuntos de prueba especificos para evaluar la robustez de los modelos en distintos escenarios.
+
+4. ¿Cuáles fueron los principales desahos técnicos o conceptuales al abordar este problema?
+R: En escencia, los principales desafios tanto técnicos como conceptuales fueron los siguientes:
+4.1. Integracion con la API de Github:
+- Manejo de los limites de tasa por peticion
+- Paginacion de resultados
+- Estructura de datos JSON anidados y complejos.
+
+4.2. Desbalance de clases:
+- Los repositorios populares tienen a tener patrones muy diferentes de aceptacion y rechazo.
+
+4.3 Eleccion de metricas apropiadas:
+- Determinar la metrica mas apropiada para el problema a resolver, en este caso era f1-score.
+- Equilibrar falsos positivos y falsos negativos segun el contexto del problema.
+
+4.4 Entrenamiento de modelos:
+- El entrenamiento de los modelos es un proceso exhaustivo, en algunas ocaciones se cancelaba automaticamente el entrenamiento,
+debido a la falta de recursos en hardware.
+
+4.5  Extraccion de datos:
+- El contenido textual de los pull request contiene informacion valiosa pero es dificil cuantificarla.
+
+
