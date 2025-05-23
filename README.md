@@ -82,3 +82,7 @@ uv sync
 uv run ./src/main.py
 ```
 
+### Consideraciones:
+Se dejo la carpeta data como publica y no ignorada,
+La decision de esto, es para facilitar la ejecucion de los notebooks data_handler y training.
+Ademas los datos a extraer son muchos, asi que para facilitar la prueba de nuestro trabajo, se opto por esto.
