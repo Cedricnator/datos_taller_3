@@ -9,6 +9,18 @@ Entrenamiento de un Modelo de Clasificación
 
 ## **INSTRUCCIONESS**:
 
+### .env
+- Es necesario administrar en un archivo .env las credencias de la api de github.
+Se debe de crear un .env
+y definir el:
+```txt
+GITHUB_TOKEN
+```
+Documentacion de github:
+```url
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens
+```
+
 ### Clonar repositorio:
 1. Clonar con HTTPS:
 ```bash
